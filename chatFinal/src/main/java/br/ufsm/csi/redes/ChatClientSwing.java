@@ -31,7 +31,6 @@ public class ChatClientSwing extends JFrame {
     private Set<Usuario> chatsAbertos = new HashSet<>();//não sei
     private Socket socket;//define um socket que sera para quem sera enviada a mensagem
     private PainelChatPVT painel;//painel do EU
-    //private PainelChatPVT painel2;//painel do OUTRO EU
 
     @SneakyThrows
     public ChatClientSwing() throws UnknownHostException {
